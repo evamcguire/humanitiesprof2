@@ -1,0 +1,31 @@
+<script>
+<!--
+/*
+Random link button- By JavaScript Kit (http://javascriptkit.com)
+Over 300+ free scripts!
+This credit MUST stay intact for use
+*/
+//specify random links below. You can have as many as you want
+var randomlinks=new Array()
+
+randomlinks[0]="https://docs.google.com/forms/d/e/1FAIpQLSdc7UtcT625lixvksc0OQc_cOniqESIRMPl0grtIPKhxCWqtQ/viewform?usp=sf_link"
+randomlinks[1]="https://docs.google.com/forms/d/e/1FAIpQLSeJVk0vez2lmVy7lTCPxac4OTf3ysOh06K5ADfQJNO_XzJGbw/viewform?usp=sf_link"
+randomlinks[2]="https://docs.google.com/forms/d/e/1FAIpQLSd-9NIMd4TVWjWwbfDVm1TJPRyTg58jPnDucRzle4GTP8wqkA/viewform?usp=sf_link"
+randomlinks[3]="https://docs.google.com/forms/d/e/1FAIpQLScDZpovjkRS86DlmBlzwX1DH9Hh4-Zct63CyeDUJ2AIxVflBA/viewform?usp=sf_link"
+randomlinks[4]="https://docs.google.com/forms/d/e/1FAIpQLScl6108SnV_c5blPcQyw8E1w4DY_vJbNA-fImC_vD4m-FRjxA/viewform?usp=sf_link"
+randomlinks[5]=“https://docs.google.com/forms/d/e/1FAIpQLSd9miD56zo3yvFz2H98-hsXK1xxArjMw1Gy4IUuSQA5UBS7Tw/viewform?usp=sf_link"
+randomlinks[6]=“https://docs.google.com/forms/d/e/1FAIpQLSfwIsGsQFJFHJrlma4Dp0SVq7JuShlNRTjxuoQx6vcsMmw6pw/viewform?usp=sf_link"
+randomlinks[7]=“https://docs.google.com/forms/d/e/1FAIpQLSdoV2-9RrTQ0FmCwkNAyWoVFy0-kmgyNp35ELAgofx4X0DCAA/viewform?usp=sf_link"
+
+
+function randomlink(){
+window.location=randomlinks[Math.floor(Math.random()*randomlinks.length)]
+}
+//-->
+</script>
+<form method="post">
+<p><input type="button" name="B1" value="click here to start the study >>" onclick="randomlink()"></p> </form>
+
+<!--Uncomment below to use a regular text link instead
+<a href="javascript:randomlink()">Random Link</a>
+-->
